@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.mainContainer {
+    background-color: #D1D3C4;
+    height: 100vh;
+    width: 100%;
+}
+
+.emojiContainer {
+    height: 92vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 55px;
+}
+
+.emoji {
+
+    font-size: 150px;
+    filter: grayscale(1);
+    cursor: pointer;
+    transition: transform, 300ms;
+}
+
+.emoji:hover {
+    transform: scale(1.2);
+    filter: grayscale(0);
+}
