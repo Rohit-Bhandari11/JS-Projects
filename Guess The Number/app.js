@@ -5,7 +5,6 @@ let div = document.createElement('div')
 let guesses = []
 let turnCount = 10
 let random = Math.floor(100 * Math.random())
-console.log(random)
 
 submit.addEventListener("click", () => {
     if (input.value == "") {
